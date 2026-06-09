@@ -39,7 +39,7 @@ export function LoginScreen({ onLogin }: LoginScreenProps) {
         <div className="w-full max-w-[420px] relative mt-8 lg:mt-0">
           
           {/* Character Image Overriding the Card */}
-          <div className="absolute -right-36 -bottom-10 w-64 h-80 z-20 pointer-events-none hidden md:block transform -scale-x-100">
+          <div className="absolute -right-36 -bottom-10 w-64 h-80 z-20 pointer-events-none hidden md:block">
             <Image
               src="/char.png"
               alt="Almirall Character"
