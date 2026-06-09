@@ -18,7 +18,7 @@ const initialStock: StockItem[] = [
   { id: 5, nama_barang: 'Hidroxil Loción 8% 125 ml', jumlah: 100, harga: 8.6, sku: 'ALM-HYD007', unit: 'Bottle' }
 ];
 
-const N8N_WEBHOOK_URL = 'https://inikanipp.app.n8n.cloud/webhook-test/dbc3f8bb-7784-444e-aa91-82ed009741ec';
+const N8N_WEBHOOK_URL = 'http://n8n.artavista.net/webhook/dbc3f8bb-7784-444e-aa91-82ed009741ec';
 
 export interface AppNotification {
   id: string;
